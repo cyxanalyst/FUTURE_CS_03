@@ -1,16 +1,15 @@
 
-API Security Risk Analysis Report
+ API Security Risk Analysis Report
 Future Interns — Cybersecurity Internship | Task 3 | April 2026
- Overview
-This repository contains the API Security Risk Analysis Report completed as part of the Future Interns Cybersecurity Internship (Task 3).
-The assessment was performed on a public demo API to identify common security vulnerabilities, classify risks, and suggest remediation steps — following ethical and legal guidelines.
- Objective
+📋 Overview :
+This repository contains the API Security Risk Analysis Report completed as part of the Future Interns Cybersecurity Internship (Task 3). The assessment was performed on a public demo API to identify common security vulnerabilities, classify risks, and suggest remediation steps — following ethical and legal guidelines.
+ Objective :
 Analyze a public/demo API for security risks
 Identify authentication and access control issues
 Detect data exposure vulnerabilities
 Explain risks in simple, business-friendly language
 Suggest clear remediation steps
-🛠️ Tools Used
+🛠️ Tools Used:
 Tool
 Purpose
 Postman
@@ -19,10 +18,15 @@ Browser DevTools (Chrome)
 Inspect HTTP headers and network traffic
 JSONPlaceholder API
 Public demo API used as test target
- Target API
-Name: JSONPlaceholder
-URL: https://jsonplaceholder.typicode.com
-Type: Public demonstration API (safe and legal to test)
+🌐 Target API
+Field
+Details
+Name
+JSONPlaceholder
+URL
+https://jsonplaceholder.typicode.com
+Type
+Public demonstration API (safe and legal to test)
 🔍 Scope & Methodology
 ✅ Allowed
 Testing public/demo APIs only
@@ -33,7 +37,7 @@ Documentation analysis
 Any exploitation or bypass attempts
 Flood tests / DoS attacks
 Attacking private or production APIs
-Methodology Steps
+📌 Methodology Steps
 Selected a public demo API (JSONPlaceholder)
 Reviewed API documentation
 Tested endpoints using Postman (GET requests only)
@@ -43,7 +47,7 @@ Identified security risks
 Classified risk severity (Low / Medium / High / Critical)
 Proposed remediation steps
 Documented all findings in a professional report
-🚨 Vulnerabilities Found
+⚠️ Vulnerabilities Found:
 #
 Vulnerability
 Risk Level
@@ -51,35 +55,30 @@ Status
 1
 Missing Authentication
 HIGH
-Documented
+✅ Documented
 2
 Excessive Data Exposure
 CRITICAL
-Documented
+✅ Documented
 3
 Missing Security Headers
 MEDIUM
-Documented
+✅ Documented
+🔑 Key Findings Summary
+GET /users → Exposes names, emails, addresses, GPS coordinates, phone numbers without any authentication (200 OK)
+GET /posts → Exposes 7.98 KB of internal publications without authentication (200 OK)
+GET /comments → Exposes user comments and emails without authentication (200 OK)
 📁 Repository Contents
 FUTURE_CS_03/
 │
-├── README.md                          ← This file
-├── Task3_API_Security_Report.pdf      ← Full security report
+├── README.md ← This file
+├── Task3_API_Security_Report.pdf ← Full security report
+│
 └── screenshots/
-    ├── postman_users_response.jpg     ← GET /users result
-    ├── postman_users_headers.jpg      ← Response headers
-    ├── postman_posts_response.jpg     ← GET /posts result
-    └── postman_comments_response.jpg  ← GET /comments result
-📊 Key Findings Summary
-GET /users → Exposes names, emails, addresses, GPS coordinates, phone numbers without any authentication (200 OK)
-GET /posts → Exposes 7.98 KB of internal publications without authentication (200 OK)
-GET /comments → Exposes 40.77 KB of emails and comments without authentication (200 OK)
-Response Headers → Missing X-Frame-Options, Content-Security-Policy, Strict-Transport-Security, X-Content-Type-Options
-✅ Ethical Statement
-This assessment was conducted ethically using read-only methods only.
-No exploitation, bypass attempts, or unauthorized access was performed.
-All testing followed the Future Interns ethical guidelines.
-👤 Author
-Richmond Delmas
-Future Interns — Cybersecurity Intern
-April 2026
+    ├── postman_users_response.jpg ← GET /users result
+    ├── postman_users_headers.jpg ← Response headers
+    ├── postman_posts_response.jpg ← GET /posts result
+    └── postman_comments_response.jpg ← GET /comments result
+⚖️ Ethical Disclaimer
+This assessment was conducted exclusively on a public demo API for educational purposes only. No real systems, private APIs, or production environments were tested. All testing followed ethical and legal guidelines.
+Completed by:Richmond Delmas Konan | Future Interns Cybersecurity Internship | Task 3 | April 2026
