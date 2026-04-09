@@ -81,4 +81,4 @@ FUTURE_CS_03/
     └── postman_comments_response.jpg ← GET /comments result
 ⚖️ Ethical Disclaimer
 This assessment was conducted exclusively on a public demo API for educational purposes only. No real systems, private APIs, or production environments were tested. All testing followed ethical and legal guidelines.
-Completed by:Richmond Delmas Konan | Future Interns Cybersecurity Internship | Task 3 | April 2026
+
