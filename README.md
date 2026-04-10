@@ -1,7 +1,4 @@
 
- API Security Risk Analysis Report
-Future Interns — Cybersecurity Internship | Task 3 | April 2026
-📋 Overview :
 This repository contains the API Security Risk Analysis Report completed as part of the Future Interns Cybersecurity Internship (Task 3). The assessment was performed on a public demo API to identify common security vulnerabilities, classify risks, and suggest remediation steps — following ethical and legal guidelines.
  Objective :
 Analyze a public/demo API for security risks
@@ -9,7 +6,7 @@ Identify authentication and access control issues
 Detect data exposure vulnerabilities
 Explain risks in simple, business-friendly language
 Suggest clear remediation steps
-🛠️ Tools Used:
+ Tools Used:
 Tool
 Purpose
 Postman
@@ -17,8 +14,7 @@ Send API requests and inspect responses
 Browser DevTools (Chrome)
 Inspect HTTP headers and network traffic
 JSONPlaceholder API
-Public demo API used as test target
-🌐 Target API
+Public demo API used as test target Target API
 Field
 Details
 Name
